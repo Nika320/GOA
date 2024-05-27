@@ -1,11 +1,11 @@
 from turtle import *
+speed(10000)
 
-#მდელო
-speed(9999)
+# მდელო
 penup()
 begin_fill()
-color("dark green")
-goto(-1000,-200)
+color("green")
+goto(-1000, -200)
 pendown()
 forward(2000)
 right(90)
@@ -16,14 +16,14 @@ right(90)
 forward(300)
 end_fill()
 
-#მარცხენა კოშკი
+# მარცხენა კოშკი
 penup()
-color("peru")
+color("brown")
 goto(-400, -350)
 pendown()
 left(295)
 begin_fill()
-circle(200,-50)
+circle(200, -50)
 left(115)
 forward(560)
 right(90)
@@ -33,7 +33,7 @@ forward(560)
 penup()
 end_fill()
 
-#მარცხენა კოშკის ფანჯრები.
+# მარცხენა კოშკის ფანჯარები
 color("black")
 goto(-460, 150)
 pendown()
@@ -48,7 +48,8 @@ right(90)
 forward(80)
 penup()
 end_fill()
-goto(-460, -40)
+
+goto( -460, -40)
 pendown()
 left(115)
 begin_fill()
@@ -63,16 +64,16 @@ forward(80)
 right(90)
 forward(40)
 end_fill()
-penup()
 
-#მარჯვენა კოშკი
+
+# მარჯვენა კოშკი
 penup()
-color("peru")
+color("brown")
 goto(300, -350)
 pendown()
 left(25)
 begin_fill()
-circle(200,-50)
+circle(200, -50)
 left(115)
 forward(560)
 right(90)
@@ -81,9 +82,8 @@ right(90)
 forward(560)
 penup()
 end_fill()
- 
- #მარჯვენა კოშკის ფანჯრები
-penup()
+
+# მარცხენა კოშკის ფანჯრები
 color("black")
 goto(240, 150)
 pendown()
@@ -98,6 +98,7 @@ right(90)
 forward(80)
 penup()
 end_fill()
+
 goto(240, -40)
 pendown()
 left(115)
@@ -113,12 +114,12 @@ forward(80)
 right(90)
 forward(40)
 end_fill()
-penup()
 
-#გალავანი
+
+# გალავანი
 begin_fill()
-color("sienna")
-goto(-398,-30)
+color("brown")
+goto(-398, -30)
 pendown()
 forward(530)
 right(90)
@@ -127,24 +128,24 @@ right(90)
 forward(530)
 right(90)
 forward(280)
-penup()
 end_fill()
 
-#კარები
-color("peru")
-goto(-398,-355)
+
+# კარები
+color("saddle brown")
+goto(-398, -355)
 begin_fill()
 forward(50)
 right(90)
 forward(170)
 right(90)
 forward(40)
-left (90)
+left(90)
 pendown()
 begin_fill()
 forward(220)
 left(90)
-forward(200)
+forward(220)
 left(90)
 forward(220)
 left(90)
@@ -153,12 +154,12 @@ end_fill()
 penup()
 begin_fill()
 color("black")
-goto(-145,-345)
+goto(-145, -345)
 pendown()
 left(180)
 forward(90)
 right(170)
-circle(30,-200)
+circle(30, -200)
 right(170)
 forward(90)
 right(90)
@@ -166,9 +167,9 @@ forward(60)
 end_fill()
 penup()
 
-#ორნამენტები
-goto(-145,-345)
-color("peru")
+# ორმანენტები
+goto(-145, -345)
+color("saddle brown")
 right(90)
 forward(200)
 left(90)
@@ -202,8 +203,9 @@ forward(225)
 end_fill()
 penup()
 
-#მარცხენა ორნამენტები
+# მარცხენა კოშკის ორნამენტები
 goto(-420,210)
+color("brown")
 forward(172)
 pendown()
 right(90)
@@ -234,7 +236,7 @@ forward(225)
 end_fill()
 penup()
 
-#მარჯვენა ორნამენტები
+# მარჯვენა კოშკის ორნამენტები
 goto(275,210)
 forward(172)
 pendown()
@@ -266,11 +268,11 @@ forward(225)
 end_fill()
 penup()
 
-#მესამე კოშკი.
-goto(140,-30)
+# ძირითადი კოშკი
+goto(140, -30)
 pendown()
 begin_fill()
-color("peru")
+color("saddle brown")
 forward(155)
 right(90)
 forward(200)
@@ -282,7 +284,7 @@ left(90)
 forward(210)
 end_fill()
 
-#ძირითადი კოშკის ფანჯრები
+# ძირითადი კოშკის ფანჯრები
 penup()
 color("black")
 left(90)
@@ -300,11 +302,10 @@ forward(80)
 penup()
 end_fill()
 
-
-#ძირითადი კოშკის ორნამენტები
+# ძირითადი კოშკის ორნამენტები
 goto(130,12)
 pendown()
-color("peru")
+color("brown")
 begin_fill()
 right(90)
 forward(30)
@@ -365,20 +366,20 @@ forward(42)
 end_fill()
 penup()
 
-#ძირითადი კოშკის სახურავი
-goto(180,170)
+# ძირითადი კოშკის სახურავი
+goto(180, 170)
 left(90)
 forward(160)
 right(30)
 pendown()
+color("saddle brown")
 begin_fill()
 forward(160)
 left(60)
 forward(160)
-right(210.)
+right(210)
 forward(280)
 end_fill()
-
 
 #დროშა
 width(3)
@@ -387,7 +388,7 @@ goto(-120,249)
 left(90)
 pendown()
 begin_fill()
-color("red")
+color("brown")
 forward(110)
 right(90)
 forward(100)
@@ -422,7 +423,6 @@ left(90)
 forward(5)
 penup()
 goto(-85,310)
-
 # G
 pendown()
 right(90)
@@ -436,6 +436,7 @@ forward(20)
 penup()
 
 # O
+
 goto(-57,310)
 pendown()
 right(110)
@@ -453,9 +454,8 @@ penup()
 goto(1000,1000)
 pendown()
 
-color("yellow")
-begin_fill()
-circle(90)
-end_fill()
+
+
+
 
 exitonclick()
